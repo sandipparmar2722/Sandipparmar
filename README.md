@@ -23,9 +23,7 @@
   <meta name="description" content="FreeFire">
   <meta property="og:title" content="FreeFire">
   <meta property="og:description" content="FreeFire">
-  <script async src=
-  "https://www.googletagmanager.com/gtag/js?id=UA-180844756-1"></script>
-
+ 
  
 </head>
 <body>
