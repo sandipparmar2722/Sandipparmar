@@ -6,8 +6,7 @@
 
 <title>Example of Forms</title></head>
 
-<body Style="background-color:pink;">
-
+<body>
 							
 
 				<div style="background-image: url('https://images.app.goo.gl/1EuXGWNevxQyVHqC8');">
