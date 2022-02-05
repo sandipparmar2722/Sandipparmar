@@ -9,10 +9,9 @@
 <body>
 							
 
-				<div style="background-image: url('https://images.app.goo.gl/1EuXGWNevxQyVHqC8');">
-
+			
 				
-
+<img src=""Phone/DCIM/Screenshots/Screens hot 2022-02-04-21-41-23-99.png" hight"100">" 
 				
 
 <form acƟon="link.html" method="post" Autocomplete name="form1">
