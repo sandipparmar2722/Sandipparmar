@@ -1,8 +1,8 @@
 <!doctype html>
 <html>
 <head>
-<Ɵtle>Example of Forms</Ɵtle></head>
-<body bg colour="pink">
+
+<body bgcolour="pink">
 
 <h1> ISHA JADI </h1>
 
