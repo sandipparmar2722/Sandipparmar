@@ -1,6 +1,5 @@
-# Freefirerewordside
-Free fire redeem code side
-doctype html>
+
+<!doctype html>
 
 <html>
 
