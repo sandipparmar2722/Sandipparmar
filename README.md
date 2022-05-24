@@ -63,7 +63,7 @@
 
 
     <div  class="fullscreen_bg">
-        <video src="C:\Users\student\Downloads\BG VIDEO.mp4" autoplay  loop muted class="fullscreen_bg_video"> </video> 
+        <video src="BG VIDEO.mp4" autoplay  loop muted class="fullscreen_bg_video"> </video> 
          </div>
 
  
