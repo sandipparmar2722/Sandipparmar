@@ -37,7 +37,7 @@
       <div class="navbar">
       
        <ul> 
-         <li ><b style="font-size: 20px; margin-top: 20PX; font-style: italic; color: bisque ;">Sandip Parmar A.</b> </li>  
+         <li ><b style="font-size: 15px; margin-top: 20PX; font-style: italic; color: bisque ;">Sandip Parmar A.</b> </li>  
          <li><a href="#"></a> <b>Intro</b></li>   
          <li><a href="#"></a> <b>Prrsonal Details</b></li>   
          <li><a href="#"></a> <b>Education</b></li>   
