@@ -1,34 +1,92 @@
 
 
 <html> 
-
-<head> <title> RESUME APLLICATION </title>  
-
+<head> <title> MY PERSONAL BIO DATA</title>  
+    <STYLE type="TEXT/CSS">
+ .fullscreen_bg 
+                { position: fixed;
+                    background-size: cover;
+                    height: 100%;
+                    width: 100%;
+                   z-index:-1;
+                   
+                   
+                }
+                *{ margin: 0px;
+                 padding: 0px;
+                 font-family: sans-serif; 
+                 color: rgb(255, 252, 252);
+                
+             
+               }
+                 .navbar{ background-color:rgb(0, 0, 0);
+				                     
+					height:50px;width:100%;text-align:center;font-style: initial;}
+                  
+                 .navbar ul li { 
+                     list-style: none;
+                     display: inline-block;
+                     margin: 0 20px;
+                     background-color: black;
+                   margin-top: 15px;
+                 }
+</style> 
 </head> 
+<body>  
+ 
+      <div class="navbar">
+      
+       <ul> 
+         <li ><b style="font-size: 20px; margin-top: 20PX; font-style: italic; color: bisque ;">Sandip Parmar A.</b> </li>  
+         <li><a href="#"></a> <b>Intro</b></li>   
+         <li><a href="#"></a> <b>Prrsonal Details</b></li>   
+         <li><a href="#"></a> <b>Education</b></li>   
+         <li><a href="#"></a> <b>Skills</b></li>   
+         <li><a href="#"></a> <b>Intrest </b></li>   
+         <li><a href="#"></a> <b>Achivments </b></li> 
+         <li><a href="#"></a> <b>Hobbies </b></li>   
+           
+         
+         
+         
+         
+         
+       </ul>
+ 
 
-<body> 
 
-<MARQUEE><h2>  RESUME APPLICATION MAKE BY SANDIP DATED ON 07/05/2022 </H2> </MARQUEE>
 
-<hr/>
 
-<img src="C:\Users\student\Downloads\sandip.jpg" style="height:130x;width:200px;"/>
+      </div>
 
- <h2> SANDIP PARMAR A.</H2> 
 
- <H3> <i>B6,mahaveer nagar socity ,near sugyan school,opp divyaprabha apartment odhav,virat nagar, ahmedabad 382415, </i></h3> 
 
-<h3> 6355806132 </h3><br>
 
-<hr><h2> <b>OBJECTS</b></h2> 
+    <div  class="fullscreen_bg">
+        <video src="C:\Users\student\Downloads\BG VIDEO.mp4" autoplay  loop muted class="fullscreen_bg_video"> </video> 
+         </div>
 
-<hr>
+ 
 
- <h2> <p><i> i am  very practical person .i strongly belive in accurency and precision in whatever i do.i belive i have good communicaton skills that whoud provide i have transparency and productivity in the organization .</i></p> </h2> 
 
-<br>
 
-<hr><h2> <b>PERSONAL DETAILES </b></h2>
-  </html>
-  </body>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
