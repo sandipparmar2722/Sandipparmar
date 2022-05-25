@@ -98,7 +98,7 @@
           
          <div class="row" id="HomeRow">
           <div class="col-lg-offset-3 col-md-offset-3 col-sm-offset-2 col-lg-6 col-md-6 col-sm-8 col-xs-12 wow slideInDown" data-wow-duration="3s">
-               <center><img src="C:\my bio data\sandip.jpg" height="300px" width="auto" alt="sandip" /></center>
+               <center><img src="sandip.jpg" height="300px" width="auto" alt="sandip" /></center>
                <center><h2>sandip parmar</h2></center>
 
                <div class="row">
