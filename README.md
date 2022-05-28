@@ -12,25 +12,30 @@
     <STYLE type="TEXT/CSS">
 
  .fullscreen_bg 
+                { position: absolute;
+                    background-size: cover;
+                    height: 100%;
+                    width: 50%;
+                   z-index:;
+                   margin-left: 30px; 
+                   
+                } 
+                 
+                .fullscreen_PG 
                 { position: fixed;
                     background-size: cover;
                     height: 100%;
                     width: 100%;
-                   z-index:-1;
-                   
-                   
-                }
+                  
+                  }  
+
+
                 *{ margin: 0px;
                  padding: 0px;
                  font-family: sans-serif; 
-                 color: rgb(255, 252, 252);
+                 color: rgb(255, 252, 252);}
                 
              
-               }
-                 .navbar{ background-color:rgb(0, 0, 0);
-				                     
-					height:50px;width:105%;text-align:center;font-style: initial;}
-
 
 
           #Home
@@ -63,34 +68,45 @@
 	                border-radius:5px;
 	                box-shadow:0px 0px 10px rgb(241, 171, 171);   
 	            }
-                 .navbar ul li { 
+                 .navbar ul li {  
                      list-style: none;
                      display: inline-block;
-                     margin: 0 20px; 
-                     margin-top: 15px;
+                     margin: 20  25px; 
+                     margin-top: 5px;
                      margin-bottom: 15px; 
+                     font-size: 17px;
                  }
+               
+                .navbar{ background-color:rgb(125, 15, 15); 
+                    
+				            
+					height:50px;width:200px%;text-align:center;font-style: initial; }
 
-              
+                 
 </style> 
 </head> 
 <body>  
- 
+  
       <div class="navbar">
       
        <ul> 
-         <li ><b style="font-size: 20px; margin-top: 20PX; font-style: italic; color: bisque ;">Sandip Parmar A.</b> </li>  
-         <li><a href="#"><b>Intro</b></a> </li>   
-         <li><a href="#"> <b>Personal bio data</b></a> </li>   
-         <li><a href="#"> <b>Education</b></a> </li>   
-         <li><a href="#"> <b>Skills</b></a> </li>   
-         <li><a href="#"> <b>Intrest </b></a> </li>   
-         <li><a href="#"> <b>Achivments </b></a> </li> 
+           <li>  <B style="font-size: 30PX; font-style: italic;  color: black; margin-left: -40PX;"> C <SUP>V </B>  </li>
+         <li ><b style="font-size: 20px; margin-left: -30px; font-style: italic; color: bisque ;">Sandip Parmar A.</b> </li>  
+         <li><a href="#"> <b> <i class="fa fa-user" aria-hidden="true" style="margin-right:15px"></i>Intro</b></a> </li>   
+         <li><a href="#"> <b> <i class="fa fa-object-group" aria-hidden="true" style="margin-right:15px"></i>object</b></a> </li>   
+         <li><a href="#"> <b><i class="fa fa-graduation-cap" aria-hidden="true"  style="margin-right:15px"></i>Education</b></a> </li>   
+         <li><a href="#"> <b><i class="fa fa-cogs" aria-hidden="true"  style="margin-right:15px"></i>Skills</b></a> </li>   
+         <li><a href="#"> <b> </i> Intrest </b></a> </li>   
+         <li><a href="#"> <b> <i class="fa fa-trophy" aria-hidden="true"  style="margin-right:15px"></i>Achivments </b></a> </li> 
          <li><a href="#"> <b>Hobbies </b></a> </li>   
  
        </ul>
 
       </div>
+      <div  class="fullscreen_PG">
+        <img src="BG IMAGE.jpg"> </IMG> 
+         </div> 
+
 
     <div  class="fullscreen_bg">
         <video src="BG VIDEO.mp4" autoplay  loop muted class="fullscreen_bg_video"> </video> 
@@ -99,7 +115,7 @@
          <div class="row" id="HomeRow">
           <div class="col-lg-offset-3 col-md-offset-3 col-sm-offset-2 col-lg-6 col-md-6 col-sm-8 col-xs-12 wow slideInDown" data-wow-duration="3s">
                <center><img src="sandip.jpg" height="300px" width="auto" alt="sandip" /></center>
-               <center><h2>sandip parmar</h2></center>
+               <center><h2>sandip parmar a.</h2></center>
 
                <div class="row">
                    <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-5 col-md-5 col-sm-5">
