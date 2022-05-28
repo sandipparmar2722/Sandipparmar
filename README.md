@@ -63,10 +63,11 @@
 
 	            {
 	                background:rgba(0,0,0,0.7); 
+                    
 	                padding-top:20px;
 	                padding-bottom:20px;
 	                border-radius:5px;
-	                box-shadow:0px 0px 10px rgb(241, 171, 171);   
+	                box-shadow:0px 0px 20px rgb(175, 96, 96);   
 	            }
                  .navbar ul li {  
                      list-style: none;
@@ -81,7 +82,19 @@
                     
 				            
 					height:50px;width:200px%;text-align:center;font-style: initial; }
+                
+                     #OB  { 
+                           width: 100%; 
+                           background-image: url('BG IMAGE.jpg');
+ 
+                     } 
+                     #OB div.col-lg-offset-3 
+                        { 
+                            width: 80%;
+                             margin-LEFT: 190PX; 
+                             
 
+                        }
                  
 </style> 
 </head> 
@@ -93,7 +106,7 @@
            <li>  <B style="font-size: 30PX; font-style: italic;  color: black; margin-left: -40PX;"> C <SUP>V </B>  </li>
          <li ><b style="font-size: 20px; margin-left: -30px; font-style: italic; color: bisque ;">Sandip Parmar A.</b> </li>  
          <li><a href="#"> <b> <i class="fa fa-user" aria-hidden="true" style="margin-right:15px"></i>Intro</b></a> </li>   
-         <li><a href="#"> <b> <i class="fa fa-object-group" aria-hidden="true" style="margin-right:15px"></i>object</b></a> </li>   
+         <li><a href="#"> <b> <i class="fa fa-object-group" aria-hidden="true" style="margin-right:15px"></i> Objective </b></a> </li>   
          <li><a href="#"> <b><i class="fa fa-graduation-cap" aria-hidden="true"  style="margin-right:15px"></i>Education</b></a> </li>   
          <li><a href="#"> <b><i class="fa fa-cogs" aria-hidden="true"  style="margin-right:15px"></i>Skills</b></a> </li>   
          <li><a href="#"> <b> </i> Intrest </b></a> </li>   
@@ -139,6 +152,28 @@
      </div>
    </div>
  
+      <BR>
+    <BR>
+    
+    
+    
+     
+    <DIV style="margin-top: 50%;"> 
+   <div class="OBJECT" id="OB">
+    <div class="col-lg-offset-3 col-md-offset-3 col-sm-offset-2 col-lg-6 col-md-6 col-sm-8 col-xs-12 wow slideInDown" data-wow-duration="3s">
+         
+         <center>    <H1>   <i class="fa fa-object-group" aria-hidden="true" style="margin-right:15px; size: 30%;"> OBJECTIVE </i> </H1></center>
+
+         <div class="OB">
+                 <H3> “Hard-working, goal-oriented, and a team player seeking an opportunity to incorporate my skills and put them to use.” </H3> 
+                  <H3>“I am looking for an entry-level position to kickstart my career and utilize my skills and expand my knowledge.”</H3>
+                  <H3> “I aspire to work in a reputable organisation and utilize my skills to inflate my expertise.” </H3>
+             </div>
+
+          
+</div>
+</div>
+</DIV>
 
 
 
