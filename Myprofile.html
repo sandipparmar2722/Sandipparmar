@@ -1,0 +1,599 @@
+<html  xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+           <title>My Profile</title>
+            
+           <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"  rel="stylesheet" type="text/css" />
+           
+           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+          
+           <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" type="text/javascript" language="javascript"></script>
+    
+           <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+           <script src="JS/wow.min.js" type="text/javascript"></script>
+           <link href="CSS/animate.css" rel="stylesheet" type="text/css" />
+
+           <style type="text/css">
+            #HeaderDiv a.navbar-brand
+            {
+                font-family:Monotype Corsiva;
+                font-size:25px;    
+                color:#ffffff;
+            }
+            #navbarCollapse li b
+            {
+                color:#ffffff;
+            }
+
+            .fullscreen_bg 
+                {
+                    position:relative;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    left: 0;
+                    overflow:hidden;
+                    z-index:-1;
+                }
+
+                .fullscreen_bg_video 
+                {
+                    position:absolute;
+                    width: auto;
+                    height: auto;
+                    min-width: 100%;
+	                min-height: 100%;
+	            }
+	            
+	            #Home
+	            {
+	                height:auto;
+	                padding-bottom:40px;
+	                color:#fff;
+	                font-weight:bold
+	            }
+	            
+	            #HomeRow
+	            {
+	                padding-top:7%;   
+	            }
+	            #HomeRow a i.fa
+	            {
+	                color:#ffffff;
+	            }
+	            
+	            #HomeRow div.col-lg-offset-3
+	            {
+	                background:rgba(0,0,0,0.7); 
+	                padding-top:20px;
+	                padding-bottom:20px;
+	                border-radius:5px;
+	                box-shadow:0px 0px 10px rgb(241, 171, 171);   
+	            }
+	            
+            #TechnicalSummary
+	            {
+	                height:100vh;
+	                padding-bottom:40px;
+	                color:#fff;
+	                background-attachment:fixed;
+	                background-image:url('Images/About_Image.jpg');
+	                background-repeat:no-repeat;
+	                background-size:cover;
+	                font-size:18px;
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                    text-align: justify;
+	                line-height:1.5;
+	            }
+	            #TechnicalSummaryRow
+	            {
+	                padding-top:7%;
+	            }
+	            #TechnicalSummary h1
+	            {
+	                font-family:cursive;
+	            }
+                #Qualifications
+	            {
+	                background-attachment:fixed;
+	                background-image:url('Images/1.jpg');
+	                background-repeat:no-repeat;
+	                background-size:cover;
+	                font-size:25px;
+	                padding-bottom:40px;
+	                color:#000000;
+                    
+	            }
+	            #QualificationsRow
+	            {
+	                 margin-top:100px;
+	                 margin-bottom:100px;
+                   
+	            }
+	            #QualificationsRow div.col-lg-offset-1
+	            {
+	                padding:10px;
+                    color: white;
+	                background-color:rgba(88, 85, 85, 0.8);
+	                border-radius:8px;
+	                box-shadow:0px 0px 18px rgb(221, 240, 243);
+	                
+	            }
+	            #Qualifications table
+	            {
+	                width:100%;
+	                margin-top:50px;
+	            }
+	            #Qualifications table tr td
+	            {
+	                padding-bottom:20px;
+	            }
+	            #Qualifications table tr td:first-child
+	            {
+	                width:30%;
+	                padding-left:10px;
+	            }
+	            
+	            #Skills
+	            {
+                    height:100vh;
+	                background-attachment:fixed;
+	                background-image:url('Images/1.jpg');
+	                background-repeat:no-repeat;
+	                background-size:cover;
+	                font-size:20px;
+	                padding-bottom:40px;
+	                color:#000000;
+	            }
+	            #SkillsRow
+	            {
+	                 margin-top:250px;
+	                 margin-bottom:100px;
+	            }
+	            #SkillsRow div.col-lg-offset-5
+	            {
+	                padding:10px;
+                    font-size: 20px;
+                    color: white;
+	                background-color:rgba(88, 85, 85, 0.8);
+	                border-radius:8px;
+	                box-shadow:0px 0px 18px rgb(221, 240, 243);
+	                opacity:0.8;
+	            }
+	            #Skills table
+	            {
+	                width:100%;
+	                margin-top:50px;
+	            }
+	            #Skills table tr td
+	            {
+	                padding-bottom:20px;
+	            }
+	            #Skills table tr td:first-child
+	            {
+	                width:30%;
+	                padding-left:10px;
+	            }
+	            
+	            #Noncollegiate
+	            {
+                    height:100vh;
+	                background-attachment:fixed;
+	                background-image:url('Images/1.jpg');
+	                background-repeat:no-repeat;
+	                background-size:cover;
+	                font-size:20px;
+	                padding-bottom:40px;
+	                color:#000000;
+                    
+	            }
+	            #NoncollegiateRow
+	            {
+	                 margin-top:250px;
+	                 margin-bottom:100px;
+	            }
+	            #NoncollegiateRow div.col-lg-offset-1
+	            {
+	                padding:10px;
+                    color: white;
+	                background-color:rgba(88, 85, 85, 0.8);
+	                border-radius:8px;
+	                box-shadow:0px 0px 18px rgb(221, 240, 243);
+	                opacity:0.8;
+	            }
+	            #Noncollegiate table
+	            {
+	                width:100%;
+	                margin-top:50px;
+	            }
+	            #Noncollegiate table tr td
+	            {
+	                padding-bottom:20px;
+	            }
+	            #Noncollegiate table tr td:first-child
+	            {
+	                width:30%;
+	                padding-left:10px;
+	            }
+	            
+	            #Experience
+	            {
+                    height:100vh;
+	                background-attachment:fixed;
+	                background-image:url('Images/1.jpg');
+	                background-repeat:no-repeat;
+	                background-size:cover;
+	                font-size:20px;
+	                padding-bottom:40px;
+	                color:#000000;
+	            }
+	            #ExperienceRow
+	            {
+	                 margin-top:230px;
+	                 margin-bottom:100px;
+	            }
+	            #ExperienceRow div.col-lg-offset-5
+	            {
+	                padding:10px;
+                    color: white;
+	                background-color:rgba(88, 85, 85, 0.8);
+	                border-radius:8px;
+	                box-shadow:0px 0px 18px rgb(221, 240, 243);
+	                opacity:0.8;
+	            }
+	            #Experience table
+	            {
+	                width:100%;
+	                margin-top:50px;
+	            }
+	            #Experience table tr td
+	            {
+	                padding-bottom:20px;
+	            }
+	            #Experience table tr td:first-child
+	            {
+	                width:30%;
+	                padding-left:10px;
+	            }
+	        
+	            #Portfolio
+	            {
+	                height:100vh;
+	                padding-bottom:40px;
+	                color:#fff;
+	                font-size:20px;
+	                
+	            }
+	           
+	            #PortfolioRow h1
+	            {
+	                color:#000000;
+	                font-family:Monotype Corsiva;
+	            }  
+	            
+	            #Portfolio div.col-lg-3
+	            {
+	                margin-bottom:20px;
+	            }  
+	            .ContainerImage
+	            {
+                    position: relative;
+                    width:100%;
+                }
+                .image 
+                {
+                  display: block;
+                  width: 100%;
+                  height: 200px;
+				  transition:1s;
+                  
+                }
+
+                .overlay 
+                {
+                  position: absolute;
+                  left: 0;
+                  bottom: 0;
+                  top: 0;
+                  right:0;
+                  background:rgba(0,0,0,0.7);
+                  overflow: hidden;
+                  height: 100%;
+                  width:100%;
+                  opacity:0;
+                  transition:0.5s;
+                }
+                .ContainerImage:hover .overlay 
+                {
+                  opacity:1;
+                }
+				.ContainerImage:hover .image 
+                {
+                  transform:rotate(360deg);
+                }
+                .text 
+                {
+                  color: white;
+                  font-size: 20px;
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                  -ms-transform: translate(-50%, -50%);
+                  text-align: center;
+                }
+                
+	            @media(max-width:768px)
+	            {
+	                .fullscreen_bg_video 
+                    {
+                        left:-160%;
+                        width:260%;
+                    }
+                    #TechnicalSummary
+                    {
+                        height:auto;    
+                    }
+                }
+                @media(max-width:992px)
+                {
+                    #HomeRow
+	                {
+	                 padding-top:17%;    
+	                }    
+	                #TechnicalSummaryRow
+	                {
+	                 padding-top:17%;    
+	                }
+                }
+
+            </style>
+
+
+            <script type="text/javascript">
+                new WOW().init();
+            </script>    
+    </head>
+
+      <body>
+             <div>
+                 <nav role="navigation" class="navbar navbar-inverse navbar-fixed-top" style="z-index:1000;">
+                      <!-- Brand and toggle get grouped for better mobile display -->
+                      <div class="navbar-header" id="HeaderDiv">
+                           <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                                   <span class="icon-bar"></span>
+                                   <span class="icon-bar"></span>
+                                   <span class="icon-bar"></span>
+                           </button>
+                           <a href="#" class="navbar-brand" style="font-family: 'Times New Roman', Times, serif;"><i>Hetshri Sakariya</i></a>
+                      </div>
+
+                      <div id="navbarCollapse" class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav navbar-right" style="font-size:13px;padding-right:15px;">
+                            <li><a href="#Home"><b>Intro</b></a></li>
+                            <li><a href="#TechnicalSummary"><b>Technical Summary</b></a></li>
+                            <li><a href="#Qualifications"><b>Qualifications</b></a></li>
+                            <li><a href="#Skills"><b>Skills</b></a></li>
+                            <li><a href="#Noncollegiate"><b>Seminar & Workshop</b></a></li>
+                            <li><a href="#Experience"><b>Experience</b></a></li>
+                            <li><a href="#Portfolio"><b>Projects</b></a></li>
+                      
+                        </ul>
+                  </div>
+                </nav>
+            </div>
+            <div id="Home" class="fullscreen_bg">
+              <video src="Video/V1.mp4" autoplay loop muted class="fullscreen_bg_video"></video>
+              <div class="row" id="HomeRow">
+                   <div class="col-lg-offset-3 col-md-offset-3 col-sm-offset-2 col-lg-6 col-md-6 col-sm-8 col-xs-12 wow slideInDown" data-wow-duration="3s">
+                        <center><img src="Images/A4788B7B-F021-4D4E-9921-C8DCCEC52E16.jpeg" height="300px" width="auto" alt="Hetshri Sakariya" /></center>
+                        <center><h2>Hetshri Sakariya</h2></center>
+                        <center><h5>Assistant Professor</h5><hr /></center>
+                        <div class="row">
+                            <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-5 col-md-5 col-sm-5">
+                                 <center><i class="fa fa-2x fa-phone"></i> +91- 7621870641</center>
+                            </div>
+                            <div class="col-lg-5 col-md-6 col-sm-6">
+                                 <center><i class="fa fa-2x fa-envelope"></i> <a href="mailto:hetshri.sakariya@gmail.com" style="color:#ffffff;">hetshri.sakariya@gmail.com</a></center>
+                            </div>
+                        </div><hr />
+                        <div class="row">
+                            <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-10 col-md-10 col-sm-10">
+                                 <center><i class="fa fa-2x fa-map-marker"></i> Aditya Silveroak Institute of Technology.</center>
+                            </div>
+                        </div><hr />
+                        <center><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a> &nbsp;<a href="#"><i class="fa fa-2x fa-twitter-square"></i></a> &nbsp;<a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a> &nbsp;<a href="#"><i class="fa fa-2x fa-instagram"></i></a></center>
+                   </div>
+              </div>
+            </div>
+            <div id="TechnicalSummary" class="container-fluid wow bounceIn" data-wow-duration="3s">
+                <div class="row" id="TechnicalSummaryRow">
+                     <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-10 col-md-10 col-sm-10">
+                          <h1 class="text-center"><i class="fa fa-laptop"></i> Technical Summary</h1><hr />
+                          <ul>
+                              <li>An Information & Technology Engineer graduated from U.V.Patel College Of Engineering – Ganpat University and having overall 1 years of experience in Academecis.</li>
+                              <li>Completed Mtech - Information & Technology from U.V.Patel College Of Engineering – Ganpat University.</li>
+                              <li>knowledge of Machine Learning, Python, Artificial Intelligence, Algorithm Design And Analysis and Basics of Networking.</li>
+                              <li>Core knowledge in Web designing by using HTML, CSS, JavaScript – JQuery,Bootstrap.</li>
+                              <li>Also have knowledge of C Programming, PHP.</li>
+                              <li>In present Assistant Professor at Silveroak University.</li>
+                          </ul>
+                     </div>
+                </div>
+           </div>
+       
+        <div id="Qualifications" class="container-fluid">
+            <div class="row" id="QualificationsRow">
+                 <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-6 col-md-6 col-sm-6 wow slideInLeft" data-wow-duration="3s">
+                      <br /><h2 class="text-center"><i class="fa fa-university"></i> Education Qualification</h2><hr />
+                      <table class="table table-responsive" style="color: white;">
+                          <tr>
+                              <td>Year<br />2019 - 2021</td>
+                              <td>Mtech in Information Technology<br /> from U. V. Patel College Of Engineering<br /> Ganpat University. </br> 7.12</td>
+                          </tr>
+                          <tr>
+                              <td>Year<br />2016 - 2019</td>
+                              <td>BTech in Information Technology<br /> from U. V. Patel College Of Engineering<br /> Ganpat University. </br> 6.90</td>
+                          </tr>
+                          <tr>
+                              <td>Year<br />2005 - 2006</td>
+                              <td>Diploma in Information Technology. <br />from B. S. Patel Polytechnic College,<br /> GTU.<br /> 8.39.</td>
+                          </tr>
+                          <tr>
+                              <td>Year<br />2003 - 2004</td>
+                              <td>S. S. C. <br /> from SMT M. G. Patel Sainik School For Girls., <br /> Gujarat board.<br /> with 71.00% marks.</td>
+                          </tr>
+                      </table>
+                 </div>
+            </div>
+       </div>
+
+       <div id="Skills" class="container-fluid">
+            <div class="row" id="SkillsRow">
+                 <div class="col-lg-offset-5 col-md-offset-5 col-sm-offset-5 col-lg-6 col-md-6 col-sm-6 wow slideInRight" data-wow-duration="3s">
+                      <center><br /><h2><i class="fa fa-list-alt"></i> Technical Skills</h2><hr /></center>
+                      <table style="color: white;">
+                          <tr>
+                              <td>Programming Languages:</td>
+                              <td>C, Python, PHP, JavaScript.</td>
+                          </tr>
+                          <tr>
+                              <td>Databases:</td>
+                              <td> Microsoft SQL Server.</td>
+                          </tr>
+                          <tr>
+                              <td>Operating Systems:</td>
+                              <td>Microsoft Windows.</td>
+                          </tr>
+                          <tr>
+                              <td>Others:</td>
+                              <td>Machine Learning, AI.</td>
+                          </tr>
+                      </table>
+                 </div>
+            </div>
+       </div>
+
+       <div id="Noncollegiate" class="container-fluid">
+            <div class="row" id="NoncollegiateRow">
+                 <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-6 col-md-6 col-sm-6 wow slideInLeft" data-wow-duration="3s">
+                      <center><br /><h2><i class="fa fa-tasks"></i> Seminar & Workshop</h2><hr /></center>
+                      <table style="color: white;">
+                          <tr>
+                              <td>Year 2018</td>
+                              <td>Attended a workshop on Ethical Hacking and cyber Security.<br /> At U. V. Patel College Of Engineering. </td>
+                          </tr>
+                          <tr>
+                              <td>Year 2018</td>
+                              <td>Attended extpert lecture of Android.<br /> At U. V. Patel College Of Engineering.</td>
+                          </tr>
+                          <tr>
+                            <td>Year 2020</td>
+                            <td>Completed Quizader Mindbend-2020 on Data Science & Data Analysis with 91%..</td>
+                        </tr>
+                        <tr>
+                            <td>Year 2020</td>
+                            <td>Completed Quizader Mindbend-2020 on Cloud Computing with 99%..</td>
+                        </tr>
+                         
+                      </table>
+                 </div>
+            </div>
+       </div>
+
+       <div id="Experience" class="container-fluid">
+            <div class="row" id="ExperienceRow">
+                 <div class="col-lg-offset-5 col-md-offset-5 col-sm-offset-5 col-lg-6 col-md-6 col-sm-6 wow slideInRight" data-wow-duration="3s">
+                      <center><br /><h2><i class="fa fa-object-group"></i> Work Experience</h2><hr /></center>
+                      <table style="color: white;">
+                          <tr>
+                              <td>Since September 2021</td>
+                              <td>Assistant Professor <br /> At Aditya Silveroak Institute of Technology.</td>
+                          </tr>
+                          <tr>
+                              <td>September 2019 - June 2021</td>
+                              <td>Teaching Assistant <br/> At U. V. Patel College Of Engineering.</td>
+                          </tr>
+                          <tr>
+                              <td>Year January 2019 - April 2019</td>
+                              <td>As a Intern <br /> PHP, HTML<br /> At Flosteq Technology Pvt Ltd.</td>
+                          </tr>
+                      </table>
+                 </div>
+            </div>
+       </div>
+
+       <div id="Portfolio" class="container-fluid wow bounceIn" data-wow-duration="3s">
+            <div class="row" id="PortfolioRow">
+                 <center><br /><h1><i class="fa fa-user-circle-o" style="margin-top: 30px;"></i> My Projects</h1><hr /></center>
+                 <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                      <div class="ContainerImage">
+                          <img src="Images/2.jpg" alt="Hetshri Sakariya" class="image" />
+                          <div class="overlay">
+                               <div class="text">Course Recommendation System</div>
+                          </div>
+                      </div>
+                 </div>
+                 <div class="col-lg-3 col-md-3 col-sm-4">
+                      <div class="ContainerImage">
+                          <img src="Images/2.jpg" alt="Hetshri Sakariya" class="image" />
+                          <div class="overlay">
+                               <div class="text">Study Portal</div>
+                          </div>
+                      </div>
+                 </div>
+                 <div class="col-lg-3 col-md-3 col-sm-4">
+                      <div class="ContainerImage">
+                          <img src="Images/2.jpg" alt="Hetshri Sakariya" class="image" />
+                          <div class="overlay">
+                               <div class="text">Online Quiz</div>
+                          </div>
+                      </div>
+                 </div>
+                 <div class="col-lg-3 col-md-3 col-sm-4">
+                      <div class="ContainerImage">
+                          <img src="Images/2.jpg" alt="Hetshri Sakariya" class="image" />
+                          <div class="overlay">
+                               <div class="text">Online Complaint Portal</div>
+                          </div>
+                      </div>
+                 </div>
+                 <div class="col-lg-3 col-md-3 col-sm-4">
+                      <div class="ContainerImage">
+                          <img src="Images/2.jpg" alt="Hetshri Sakariya" class="image" />
+                          <div class="overlay">
+                               <div class="text">Google Search Engine</div>
+                          </div>
+                      </div>
+                 </div>
+                 <div class="col-lg-3 col-md-3 col-sm-4">
+                      <div class="ContainerImage">
+                          <img src="Images/2.jpg" alt="Hetshri Sakariya" class="image" />
+                          <div class="overlay">
+                               <div class="text">E-Clinic</div>
+                          </div>
+                      </div>
+                 </div>
+                 <div class="col-lg-3 col-md-3 col-sm-4">
+                      <div class="ContainerImage">
+                          <img src="Images/2.jpg" alt="Hetshri Sakariya" class="image" />
+                          <div class="overlay">
+                               <div class="text">Project 7</div>
+                          </div>
+                      </div>
+                 </div>
+                 <div class="col-lg-3 col-md-3 col-sm-4">
+                      <div class="ContainerImage">
+                          <img src="Images/2.jpg" alt="Hetshri Sakariya" class="image" />
+                          <div class="overlay">
+                               <div class="text">Project 8</div>
+                          </div>
+                      </div>
+                   
+            </div>
+       </div>
+
+
+        </body>
+
+</html>
