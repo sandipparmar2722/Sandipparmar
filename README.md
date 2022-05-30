@@ -11,8 +11,8 @@
     
  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     
-           <script src="" type="text/javascript"></script>
-    <link href="animate.css" rel="stylesheet" type="text/css" />
+ <script src="js/wow.min.js" type="text/javascript"></script>
+<link href="animate.css" rel="stylesheet" type="text/css" />
 
 
 
@@ -154,7 +154,7 @@
               #Skills
 	            {
 	                background-attachment:fixed;
-	                background-image:url('SKIILS.jpg');
+	                background-image:url('skills.jpg');
 	                background-repeat:no-repeat;
 	                background-size:cover;
 	                font-size:25px;
@@ -227,6 +227,41 @@
 	                opacity:0.8;
 	            } 
 
+
+
+
+
+                @media(max-width:768px)
+	            {
+	                .fullscreen_bg_video 
+                    {
+                        left:-160%;
+                        width:260%;
+                    }
+                    #TechnicalSummary
+                    {
+                        height:auto;    
+                    }
+                }
+                @media(max-width:992px)
+                {
+                    #HomeRow
+	                {
+	                 padding-top:17%;    
+	                }    
+	                #TechnicalSummaryRow
+	                {
+	                 padding-top:17%;    
+	                }
+                }
+
+            </style>
+
+
+            <script type="text/javascript">
+                new WOW().init();
+            </script>    
+
                
 </style> 
 </head> 
@@ -243,7 +278,7 @@
          <li><a href="#Skills"> <b><i class="fa fa-cogs" aria-hidden="true"  style="margin-right:15px"></i>Skills</b></a> </li>   
            
          <li><a href="#td"> <b> <i class="fa fa-futbol-o" aria-hidden="true" style="margin-right:15px"></i>Hobbies & Intrest</b></a> </li>   
-         <li><a href="#"> <b> <i class="fa fa-trophy" aria-hidden="true"  style="margin-right:15px"></i>Achivments </b></a> </li> 
+         <li><a href="#td2"> <b> <i class="fa fa-trophy" aria-hidden="true"  style="margin-right:15px"></i>Achivments </b></a> </li> 
        </ul>
 
     
@@ -436,4 +471,3 @@
 
 </body>
 </html>
-
